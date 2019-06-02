@@ -4,7 +4,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'test'
-        withSonarQubeEnv 'Sonar'
+        withSonarQubeEnv 'sonar'
       }
     }
   }
